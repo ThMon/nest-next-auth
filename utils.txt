@@ -1,0 +1,6 @@
+nest new auth-nest
+npm install prisma --save-dev
+npx prisma init
+npm i --save @nestjs/config
+npx prisma migrate dev --name init
+npm install @prisma/client
