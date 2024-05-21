@@ -4,3 +4,6 @@ npx prisma init
 npm i --save @nestjs/config
 npx prisma migrate dev --name init
 npm install @prisma/client
+
+nest g mo user
+nest g s user
